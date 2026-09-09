@@ -1,1 +1,1 @@
-# -entra-directory-foundation
+# entra-directory-foundation
