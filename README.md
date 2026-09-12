@@ -57,4 +57,4 @@ This lab gave me hands-on experience with Microsoft Entra ID user provisioning, 
 
 Most importantly, I learned why managing access through groups instead of individual users makes IAM easier to manage, audit, and scale.
 
-![screenshots](https://github.com/clauddy2/entra-directory-foundation/tree/main/screenshots)
+![A practice screenshot](screenshots/https://github.com/clauddy2/entra-directory-foundation/tree/main/screenshots)
