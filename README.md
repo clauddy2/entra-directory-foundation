@@ -1,32 +1,39 @@
 
-Microsoft Entra ID – Directory Foundation Lab
-Project Overview
+**Microsoft Entra ID – Directory Foundation Project Overview**
 
-In this lab, I built a Microsoft Entra ID environment for Northwind Services, a fictional small company. My goal was to practice creating and managing users, organizing users into security groups, and applying basic IAM and access management concepts.
+**Northwind – Microsoft Entra ID IAM Project Overview**
 
-What I Did
-1. Designed the User Structure
+In this project, I built and configured a Microsoft Entra ID environment for Northwind Services, a fictional 15-person company. The objective was to gain hands-on experience with identity and access management (IAM), including user provisioning, security groups, role-based access, contractor management, identity lifecycle concepts, and audit logging.
 
-Before creating the accounts, I created a user list showing each employee's:
+During the project, I also onboarded a newly hired Sales employee, increasing the environment from 15 to 16 users.
 
-Name and UPN
-Job Title
-Department
-Manager
-Usage Location
-Group Membership
+**Designed the User Structure**
 
-I used a consistent naming convention for my security groups, such as SEC-Department-Sales and SEC-Role-Helpdesk.
+Before creating accounts in Microsoft Entra ID, I designed a user structure for Northwind Services. I documented each user's name, User Principal Name (UPN), job title, department, manager, usage location, and required group membership.
 
-2. Created Users
+I also established a consistent security-group naming convention:
 
-I created the first 5 users manually in Microsoft Entra ID to understand the user creation process and the different user properties.
+SEC-<Type>-<Name>
 
-I then used Microsoft's Bulk Create CSV template to create the remaining users. I also added a newly hired Sales employee, bringing the environment to 16 users.
+Examples:
 
-3. Created Security Groups
+SEC-Department-Sales
+SEC-Department-IT
+SEC-Role-Helpdesk
 
-I created department-based security groups to organize users and make access easier to manage:
+This provided a structured approach for managing identities and access as the organization grows.
+
+**Created and Provisioned Users**
+
+I manually created the first five users in Microsoft Entra ID. This allowed me to become familiar with the user creation process and properties such as UPN, job title, department, manager, and usage location.
+
+After validating the process, I used Microsoft's Bulk Create CSV template to provision the remaining users more efficiently.
+
+I later added a newly hired employee to the Sales department, increasing the environment to 16 users.
+
+**Created Department-Based Security Groups**
+
+I created security groups to organize users according to their departments:
 
 SEC-Department-IT
 SEC-Department-Finance
@@ -34,34 +41,51 @@ SEC-Department-Sales
 SEC-Department-HR
 SEC-Department-Contractors
 
-I used Security as the group type and Assigned membership.
+I configured them as Security groups with Assigned membership and added the appropriate users to each group.
 
-4. Created a Role-Based Group
+Using department groups demonstrated how access can be managed centrally rather than assigning permissions separately to every employee.
 
-I created SEC-Role-Helpdesk to practice managing access based on job responsibilities instead of department.
+**Created a Role-Based Helpdesk Group**
 
-This helped me understand how a user can belong to a department group while also belonging to another group based on the work they perform.
+I created the SEC-Role-Helpdesk security group to practice managing access according to job responsibilities rather than department.
 
-5. Managed Contractor Access
+This demonstrated how a user can belong to a department group while also being assigned to a separate role-based group based on the work they perform.
 
-I separated contractors from regular employees using SEC-Department-Contractors. This allows contractor access to be managed and reviewed separately, especially when a contract ends.
+For example:
 
-6. Verified My Work
+User → Department Group → Role-Based Group → Access
 
-After completing the configuration, I reviewed the Microsoft Entra audit logs to verify user creation, group creation, and membership changes.
+This introduced me to practical concepts associated with Role-Based Access Control (RBAC) and least-privilege access.
 
-I also captured screenshots of my users, groups, group memberships, user properties, and audit logs as evidence of the work completed.
+**Separated Contractor Access**
 
-What I Learned
+I placed contractors into a dedicated SEC-Department-Contractors security group rather than treating them as regular employees.
 
-This lab gave me hands-on experience with Microsoft Entra ID user provisioning, bulk user creation, security groups, RBAC concepts, identity lifecycle management, least privilege, and audit logging.
+Separating contractors makes their access easier to identify, review, and remove when their contracts expire. This helped me understand the importance of identity lifecycle management, especially for temporary and non-employee identities.
 
-Most importantly, I learned why managing access through groups instead of individual users makes IAM easier to manage, audit, and scale.
+**Verified Group Membership and User Properties**
 
+After creating the users and groups, I reviewed the configuration to confirm that users had the correct:
 
-## Microsoft Entra ID Lab Screenshots
+Department
+Job title
+Manager
+Usage location
+Security group membership
 
-The screenshots below demonstrate the Microsoft Entra ID tasks completed during this lab.
+I also verified that department and role-based memberships aligned with the original Northwind user design.
+
+**Reviewed Entra ID Audit Logs**
+
+I reviewed the Microsoft Entra ID audit logs after completing the configuration.
+
+The audit logs allowed me to verify administrative activities such as user creation, group creation, and group membership changes.
+
+This demonstrated how audit logging provides visibility and accountability for identity-related activities within an organization.
+
+## Microsoft Entra ID Directory Foundation - Screenshots
+
+I captured screenshots throughout the project to provide evidence of the configuration and work completed.
 
 ### Users List
 ![Users List](https://github.com/clauddy2/entra-directory-foundation/blob/7a53e887f8b12acef3ea6bcad3843435363856aa/screenshots/users%20list-screenshot.PNG)
