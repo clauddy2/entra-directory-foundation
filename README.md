@@ -58,4 +58,4 @@ This lab gave me hands-on experience with Microsoft Entra ID user provisioning, 
 
 Most importantly, I learned why managing access through groups instead of individual users makes IAM easier to manage, audit, and scale.
 
-## Screenshots
+
