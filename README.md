@@ -56,3 +56,5 @@ What I Learned
 This lab gave me hands-on experience with Microsoft Entra ID user provisioning, bulk user creation, security groups, RBAC concepts, identity lifecycle management, least privilege, and audit logging.
 
 Most importantly, I learned why managing access through groups instead of individual users makes IAM easier to manage, audit, and scale.
+
+![A practice screenshot](screenshots/)
