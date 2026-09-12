@@ -59,3 +59,26 @@ This lab gave me hands-on experience with Microsoft Entra ID user provisioning, 
 Most importantly, I learned why managing access through groups instead of individual users makes IAM easier to manage, audit, and scale.
 
 
+## Microsoft Entra ID Lab Screenshots
+
+The screenshots below demonstrate the Microsoft Entra ID tasks completed during this lab.
+
+### Users List
+![Users List](screenshots/https://github.com/clauddy2/entra-directory-foundation/blob/7a53e887f8b12acef3ea6bcad3843435363856aa/screenshots/users%20list-screenshot.PNG)
+
+### User Details
+![User Details](screenshots/https://github.com/clauddy2/entra-directory-foundation/blob/7a53e887f8b12acef3ea6bcad3843435363856aa/screenshots/user's%20detail-screenshot.PNG)
+
+### Groups List
+![Groups List](screenshots/https://github.com/clauddy2/entra-directory-foundation/blob/7a53e887f8b12acef3ea6bcad3843435363856aa/screenshots/groups%20list-screenshot.PNG)
+
+### Group Members
+![Group Members](screenshots/https://github.com/clauddy2/entra-directory-foundation/blob/7a53e887f8b12acef3ea6bcad3843435363856aa/screenshots/group's%20members-screenshot.PNG)
+
+### Audit Logs
+
+#### Audit Log - Screenshot 1
+![Audit Logs Screenshot 1](https://github.com/clauddy2/entra-directory-foundation/blob/7a53e887f8b12acef3ea6bcad3843435363856aa/screenshots/audit%20logs-screenshot1.PNG)
+
+#### Audit Log - Screenshot 2
+![Audit Logs Screenshot 2](screenshots/https://github.com/clauddy2/entra-directory-foundation/blob/7a53e887f8b12acef3ea6bcad3843435363856aa/screenshots/audit%20logs-screenshot2.PNG)
