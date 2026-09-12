@@ -19,7 +19,7 @@ The main sections of work.
 
 ## Screenshots
 
-![Description of the image](screenshots/https://github.com/clauddy2/entra-directory-foundation/tree/main/screenshots))
+![Description of the image](screenshots/https://github.com/clauddy2/entra-directory-foundation/blob/main/screenshots/audit%20logs-screenshot1.PNG)
 
 ## Security Lessons Learned
 
