@@ -25,7 +25,7 @@ This provided a structured approach for managing identities and access as the or
 
 **Created and Provisioned Users**
 
-I manually created the first five users in Microsoft Entra ID. This allowed me to become familiar with the user creation process and properties such as UPN, job title, department, manager, and usage location.
+I manually created five users in Microsoft Entra ID. This allowed me to become familiar with the user creation process and properties such as UPN, job title, department, manager, and usage location.
 
 After validating the process, I used Microsoft's Bulk Create CSV template to provision the remaining users more efficiently.
 
