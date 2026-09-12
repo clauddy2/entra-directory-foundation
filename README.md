@@ -59,4 +59,4 @@ Most importantly, I learned why managing access through groups instead of indivi
 
 ## Screenshots
 
-![Description of the image](https://github.com/clauddy2/entra-directory-foundation/tree/c04922a63800381be76cb80d6e99d8f034b652a7/screenshots)
+![Description of the image](screenshots/https://github.com/clauddy2/entra-directory-foundation/blob/81333132433575929476f8b68b1899352c4ea52c/screenshots/users%20list-screenshot.PNG))
